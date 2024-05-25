@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Info</title>
+  <link rel="stylesheet" href="mystyle.css">
+  <style>
+    /* style */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    nav {
+      background-color: white;
+      overflow: hidden;
+      position: fixed; /* Set position to fixed */
+      width: 100%;
+      font-family: Arial, sans-serif;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      margin: auto;
+      left: 0px;
+      top: 0px;
+      margin-bottom: 10px;
+    }
+
+    nav a {
+      float: left;
+      display: block;
+      color: darkred; /* Change font color to red */
+      text-align: center;
+      padding: 20px 20px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 50px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #792220;
+      color: #FFFFFF; /* Change font color to dark red on hover */
+    }
+
+    .contact-box {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 35%; /* Increase box width */
+      padding: 40px; /* Increase padding */
+      border: 2px solid #333;
+      border-radius: 10px;
+      background-color: #f9f9f9;
+      color: darkred; /* Change text color */
+      font-size: 24px; /* Increase font size */
+    }
+
+    .contact-box h2 {
+      color: darkred; 
+      font-size: 64px; 
+    }
+
+    .contact-box p {
+      color: darkred; 
+      font-size: 48px; 
+    }
+
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="previousworks.html">Previous Works</a>
+    <a href="describe.html">More About Me!</a>
+    <a href="index.html">Home Page</a>
+  </nav>
+  <div class="contact-box">
+    <h2>Contact Information</h2>
+    <p><strong>Location:</strong> Dublin, California, 94568</p>
+    <p><strong>Email:</strong> palmajan046@gmail.com</p>
+    <p><strong>Phone:</strong> (925)-565-3454</p>
+  </div>
+</body>
+</html>
